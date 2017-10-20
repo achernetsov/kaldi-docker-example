@@ -1,4 +1,4 @@
-# This image builds kaldi; Serves as base image for image with acoustic model
+# This image builds kaldi only (without models); Serves as base image for image with acoustic model
 #
 # Do not use as kaldi image for production setup, it is not optimal (only for demonstration)
 

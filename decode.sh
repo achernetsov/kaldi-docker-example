@@ -1,5 +1,5 @@
 #!/bin/bash
-# this script running from inside container.
+# this script is running inside container.
 # /audio-to-decode/ folder is mapped in container in run-and-decode.sh script and contain single audio file that will be decoded
 #
 # script description can be found here: http://kaldi-asr.org/doc/online_decoding.html (Example for using already-built online-nnet2 models)

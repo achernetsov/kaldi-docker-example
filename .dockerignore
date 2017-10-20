@@ -1,1 +1,6 @@
-model
+audio-to-decode
+build-all
+run-and-decode
+
+# IDE artifacts
+.project
