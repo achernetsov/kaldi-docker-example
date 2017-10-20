@@ -28,4 +28,7 @@ RUN cd /kaldi/src && ./configure --shared && make depend -j 8 && make -j 8
 
 # kaldi is ready; binaries are in /kaldi/src/**bin folders
 
+# cleaning to reduce image size
+cd /kaldi/tools/ && rm *tar.gz *.bz2
+
 CMD ["bash"]
