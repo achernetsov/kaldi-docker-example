@@ -1,6 +1,6 @@
-[![Docker kaldi pulls](https://img.shields.io/docker/pulls/achernetsov/kaldi.svg)]()
-[![Docker kaldi-model-en pulls](https://img.shields.io/docker/pulls/achernetsov/kaldi-model-en.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/achernetsov/kaldi-docker-example/total.svg)]()
+[![Docker kaldi pulls](https://img.shields.io/docker/pulls/achernetsov/kaldi.svg)](https://hub.docker.com/r/achernetsov/kaldi)
+[![Docker kaldi-model-en pulls](https://img.shields.io/docker/pulls/achernetsov/kaldi-model-en.svg)](https://hub.docker.com/r/achernetsov/kaldi-model-en)
+[![Github All Releases](https://img.shields.io/github/downloads/achernetsov/kaldi-docker-example/total.svg)](https://github.com/achernetsov/kaldi-docker-example)
 
 # Overview
 The goal: to demonstrate working [kaldi](http://kaldi-asr.org/) setup (in the end 1 audio file will be decoded) and describe all preparation steps.
