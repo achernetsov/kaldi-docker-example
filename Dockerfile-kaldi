@@ -21,10 +21,10 @@ RUN apt-get update && apt-get install -y \
       wget g++ make automake autoconf bzip2 libtool subversion python2.7 python3 \
       libatlas3-base zlib1g-dev 
 # building tools
-RUN cd /kaldi/tools && make
+RUN cd /kaldi/tools && make -j
 
 # building kaldi (see /kaldi/src/INSTALL)
-RUN cd /kaldi/src && ./configure --shared && make depend && make
+RUN cd /kaldi/src && ./configure --shared && make depend -j && make -j
 
 # kaldi is ready; binaries are in /kaldi/src/**bin folders
 
