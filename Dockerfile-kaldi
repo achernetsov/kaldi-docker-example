@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
 RUN cd /kaldi/tools && make -j
 
 # building kaldi (see /kaldi/src/INSTALL)
-RUN cd /kaldi/src && ./configure --shared && make depend -j && make -j
+RUN cd /kaldi/src && ./configure --shared && make depend -j 8 && make -j 8
 
 # kaldi is ready; binaries are in /kaldi/src/**bin folders
 
