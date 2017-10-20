@@ -10,7 +10,7 @@ install docker https://www.docker.com/
 ## Decode audio file
 ``` ./run-and-decode.sh ```
 
-It will download prebuild model images and then decode audio located in audio/ folder.
+It will download prebuild images and then decode audio in audio/ folder.
 
 ## Images contain comments describing how to build and run kaldi
 images:
