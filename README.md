@@ -14,7 +14,7 @@ It's slightly more complex, but can be used to create real solutions, while this
 I hope it will be good starting point for someone who want to watch kaldi in action fast.
 
 # Prerequisites:
-install docker [docker](https://www.docker.com/get-docker)
+install [docker](https://www.docker.com/get-docker)
 
 # How to use:
 ## Decode audio file
