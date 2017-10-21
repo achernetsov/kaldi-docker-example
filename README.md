@@ -31,4 +31,4 @@ images:
 2. kaldi-model-en: based on kaldi image, contains english model and decoding script (+2GB over base image; overall ~9GB)
 
 ## What next 
-Go to [http://kaldi-asr.org/doc/tutorial.html](kaldi tutorial) and enjoy kaldi awesomeness
+Go to [kaldi tutorial](http://kaldi-asr.org/doc/tutorial.html) and enjoy kaldi awesomeness
